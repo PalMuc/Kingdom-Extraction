@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{Kingdom-Extraction summary}
   s.description = %q{Kingdom-Extraction description}
 
+  s.add_dependency "fastercsv", "~> 1.5.4" #only used on Ruby < 1.9
+
   s.rubyforge_project = "Kingdom-Extraction"
 
   s.files         = `git ls-files`.split("\n")
