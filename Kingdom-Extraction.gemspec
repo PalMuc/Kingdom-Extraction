@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "Kingdom-Extraction"
   s.version     = Kingdom::Extraction::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Philipp Comans"]
+  s.email       = ["kingdom-assignment@volton.otherinbox.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Kingdom-Extraction summary}
+  s.description = %q{Kingdom-Extraction description}
 
   s.rubyforge_project = "Kingdom-Extraction"
 
