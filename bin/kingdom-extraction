@@ -94,7 +94,7 @@ QUERY_SEQ_REGEXP = /\A(\S+)\s.*\z/ #Make sure this is exactly the same as in Bla
 
 sequences = Bio::FastaFormat.open(settings[:input_fasta])
 sequences.each do |entry|
-  current = QUERY_SEQ_REGEXP.match(entry.definition)[1]
+  current = QUERY_SEQ_REGEXP.match(entry.definition)[1] #TODO do something when this comparison fails
   if clean.include?(current)
     #Sequence belongs in the clean set
     clean_out.write(entry)
