@@ -9,6 +9,7 @@ See License.txt for more information.
 
 ## Installation
 In a nutshell:
+
     git clone git@github.com:PalMuc/Kingdom-Extraction.git
     cd Kingdom-Extraction
     rvm use jruby
