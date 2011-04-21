@@ -20,7 +20,7 @@ end
 #parse command line arguments
 settings = {}
 unless ARGV.size == 5
-  puts "Usage: kingdom-splitter sequences.fasta clean.csv contaminated.csv clean_output.fasta contaminated_output.fasta"
+  puts "Usage: kingdom-extraction sequences.fasta clean.csv contaminated.csv clean_output.fasta contaminated_output.fasta"
   exit
 end
 
